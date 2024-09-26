@@ -23,4 +23,4 @@ authorSchema.pre('deleteOne',
     }
 })
 
-module.exports = mongoose.model('Authors', authorSchema)
+module.exports = mongoose.model('Author', authorSchema)
